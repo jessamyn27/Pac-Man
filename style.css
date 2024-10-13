@@ -1,0 +1,88 @@
+body {
+    align-items: center;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.grid {
+    /* background-color: beige; */
+    border: 3px solid #1c0853;
+    display: flex;
+    flex-wrap: wrap;
+    height: 560px;
+    width: 560px;
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+}
+
+.pac-dot {
+    background-color: green;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+.wall {
+    background-color: #280a82;
+}
+
+.power-pellet {
+    background-color: #399c39;
+    border-radius: 10px;
+}
+
+.blinky {
+    background-color: #a012aa;
+    border: 5px solid #a012aa;
+    box-sizing: border-box;
+
+
+}
+
+.pinky {
+    background-color: #f998a8;
+    border: 5px solid #f998a8;
+    box-sizing: border-box;
+
+}
+
+.inky {
+    background-color: #45efef;
+    border: 5px solid #45efef;
+    box-sizing: border-box;
+}
+
+.clyde {
+    background-color: orange;
+    border: 5px solid orange;
+    box-sizing: border-box;
+}
+
+.pac-man {
+    background-color: #d6f82d;
+    border-radius: 10px;
+}
+
+.scared-ghost {
+    background-color: #beecf3;
+    border: 5px solid #beecf3;
+    box-sizing: border-box;
+}
+
+.stats {
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 80vw;
+}
+
+h1, h3 {
+    color: #d6f82d;
+    margin: 5px;
+}
